@@ -1,0 +1,99 @@
+:root {
+    --color-negro: #000000;
+    --color-blanco: #fff;
+}
+
+body {
+    background-color: var(--color-negro);
+    width: 100%;
+}
+
+h3 {
+    color: var(--color-blanco);
+}
+
+.btnopciones {
+    background-color: var(--color-blanco);
+    color: var(--color-negro);
+    border: #000000;
+    border-radius: 05px;
+    width: 100px;
+    text-align: center;
+    margin: 100 0 0 0px;
+    padding: 2px;
+}
+
+.marco {
+    /*position: absolute;*/
+    background-color: var(--color-negro);
+    left: 600px;
+    /*top: 10px;
+    width: 400px;
+    height: 200px;*/
+    margin: 0 0 0 0px;
+    padding: 15px;
+    border: #2908e4 solid;
+}
+
+.marco1 {
+    /*position: absolute;*/
+    background-color: var(--color-negro);
+    align-content: center;
+    left: 800px;
+    /*top: 10px;
+    width: 400px;
+    height: 200px;*/
+    margin: 0 0 0 0px;
+    padding: 15px;
+    border: #2908e4 solid;
+}
+
+.marco2 {
+    background-color: var(--color-negro);
+    margin: 0 0 0 0px;
+    padding: 15px;
+    border: #2908e4 solid;
+}
+
+.donny1 {
+    position: relative;
+    background-image: url(../img/donny.png);
+}
+
+.leo1 {
+    mask-image: url(../img/donny.png);
+}
+
+.mikey1 {
+    mask-image: url(../img/donny.png);
+}
+
+.raphael1 {
+    mask-image: url(../img/donny.png);
+}
+
+.donny2 {
+    mask-image: url(../img/donny.png);
+}
+
+.leo2 {
+    position: relative;
+    background-image: url(../img/leo.png);
+}
+
+.mikey2 {
+    mask-image: url(../img/donny.png);
+}
+
+.raphael2 {
+    mask-image: url(../img/donny.png);
+}
+
+
+/*.imagenderecha {
+    left: 100;
+}
+
+.imagenizquierda {
+    left: 50;
+}*/
